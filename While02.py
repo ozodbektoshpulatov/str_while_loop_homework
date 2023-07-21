@@ -6,4 +6,6 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    return len(s)
+s="Ozodbek Toshpulatov"
+print(main(s))

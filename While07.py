@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    ind=0
+    ans=0
+    while ind<len(s):
+        if s[ind] in "12345678987654321":
+            ind+=1
+        ans+=1
+    return ans
+print(main("24686395672"))

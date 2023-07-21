@@ -9,7 +9,7 @@ def main(s):
     ind=0
     ans=0
     while ind<len(s):
-        if not s[ind] in "0123456789abcdefgihjklmnopqrstuvxyshchng":
+        if not s[ind] in "0123456789qwertyuiopasdfghjklzxcvbnm":
             ans+=1
         ind+=1
     return ans

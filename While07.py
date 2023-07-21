@@ -9,8 +9,8 @@ def main(s):
     ind=0
     ans=0
     while ind<len(s):
-        if s[ind] in "12345678987654321":
+        if s[ind] in "2468":
             ans+=1
         ind+=1
     return ans
-print(main("24686395672"))
+print(main("123456789"))

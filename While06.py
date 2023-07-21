@@ -11,7 +11,7 @@ def main(s):
     ans=0
     while constant<len(s):
         if s[constant] in "ozodbekToshpulatovPulatogli":
-            constant+=1
-        ans+=1
+            ans+=1
+        constant+=1
     return ans
 print(main("abdeofafgswertum"))

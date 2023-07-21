@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    ind=0
+    ans=0
+    while ind<len(s):
+        if not s[ind] in "0123456789abcdefgihjklmnopqrstuvxyshchng":
+            ind+=1
+        ans+=1
+    return ans
+print(main("q'h'hx;uidhi"))

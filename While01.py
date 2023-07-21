@@ -6,7 +6,6 @@ def main(s):
     Returns:
         int: return answer
     """
-    s=input()
     ind=0
     ans=0
     while ind<len(s):

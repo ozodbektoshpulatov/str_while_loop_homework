@@ -13,4 +13,5 @@ def main(s):
         if s[ind] in "0123456789":
             ans+=1
         ind+=1
-    print(ans)
+    return ans
+print(main("0123456789"))

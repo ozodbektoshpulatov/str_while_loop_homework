@@ -10,8 +10,8 @@ def main(s):
     constant=0
     ans=0
     while constant<len(s):
-        if s[constant] in "qwrtypsdfghjklzxcvbnm":
+        if s[constant] in "qwrtypsdfghjklzxcvbnmQWRTYPSDFGHJKLZXCVBNM":
             ans+=1
         constant+=1
     return ans
-print(main("abdeofafgswertum"))
+print(main("Hello World"))

@@ -10,7 +10,7 @@ def main(s):
     constant=0
     ans=0
     while constant<len(s):
-        if s[constant] in "ozodbekToshpulatovPulatogli":
+        if s[constant] in "qwrtypsdfghjklzxcvbnm":
             ans+=1
         constant+=1
     return ans

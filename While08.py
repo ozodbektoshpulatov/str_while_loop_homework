@@ -6,5 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    
-    return
+    ind=0
+    ans=0
+    while ind<len(s):
+        if s[ind] in "357":
+            ans+=1
+        ind+=1
+    return ans
+print(main("1234567890"))

@@ -9,7 +9,7 @@ def main(s):
     ind=0
     ans=0
     while ind<len(s):
-        if s[ind] in "357":
+        if s[ind] in "13579":
             ans+=1
         ind+=1
     return ans

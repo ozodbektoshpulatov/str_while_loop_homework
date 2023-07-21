@@ -9,8 +9,8 @@ def main(s):
     ind=0
     ans=0
     while ind<len(s):
-        if s[ind] in "asdfghjkmnbvcxzfsvkfmhdbcjfg":
+        if s[ind] in "qwertyuiopasdfghjklzxcvbnm":
             ans+=1
         ind+=1
     return ans
-print(main("bfgdnjddkn"))
+print(main("bfgdKSHIYHVH"))

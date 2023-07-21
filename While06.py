@@ -7,3 +7,11 @@ def main(s):
     Returns:
         int: return answer
     """
+    constant=0
+    ans=0
+    while constant<len(s):
+        if s[constant] in "ozodbekToshpulatovPulatogli":
+            constant+=1
+        ans+=1
+    return ans
+print(main("abdeofafgswertum"))

@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    s=input()
+    ind=0
+    ans=0
+    while ind<len(s):
+        if s[ind] in "0123456789":
+            ans+=1
+        ind+=1
+    print(ans)

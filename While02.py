@@ -6,6 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return len(s)
-s="Ozodbek Toshpulatov"
-print(main(s))
+    ind=0
+    ans=0
+    while ind<len(s):
+        if s[ind] in "qwertyuiopasdfghjklzxcvbnm":
+            ans+=1
+        ind+=1
+    return ans
+print(main("qwertyuiopasdfghjklzxcvbnm"))
